@@ -20,6 +20,8 @@ export default function ExampleDataFetching() {
       const data = await response.json();
 
       setUsers([data.results[0]]);
+
+      setIsLoading(false);
     }
 
     firstRenderFetch().catch((error) => {
@@ -40,12 +42,6 @@ export default function ExampleDataFetching() {
       console.log(error);
     });
   }, [usersQuantity]); // triggers every time the usersQuantity changes
-
-  useEffect(() => {
-    if (users.length > 0) {
-      setIsLoading(false);
-    }
-  }, [users]);
 
   if (isLoading) {
     return 'Loading...';
