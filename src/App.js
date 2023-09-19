@@ -1,6 +1,10 @@
+import ExampleArrayOfObjectsInReact from './ExampleArrayOfObjectsInReact';
+import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunction from './ExampleClassToFunction';
 import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
+import ExampleControlledComponentCheckbox from './ExampleControlledComponentCheckbox';
+import ExampleDataFetching from './ExampleDataFetching';
 import ExampleDisplayValues from './ExampleDisplayValues';
 import ExampleFormsWithControlledComponents from './ExampleFormsWithControlledComponents';
 import ExampleFormsWithDraftState from './ExampleFormsWithDraftState';
@@ -8,17 +12,24 @@ import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExamplePropDestructuring from './ExamplePropDestructuring';
 import ExampleProps from './ExampleProps';
+import ExamplePropTypes from './ExamplePropTypes';
+import ExampleReactAntipatterns from './ExampleReactAntipatterns';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStylingOptions from './ExampleStylingOptions';
+import ExampleUseEffect from './ExampleUseEffect';
+import ExampleUserEffect from './ExampleUseEffect';
 
 export default function App() {
   return (
     <>
+      <h1>Data Fetching Example</h1>
+      <ExampleDataFetching />
+      <br />
+      <br />
       <h1>Import And Export Components Example</h1>
       <ExampleComponents />
-
       {/* props shape ----
        name: String
        age: number
@@ -93,6 +104,32 @@ export default function App() {
       <ExampleStylingOptions />
       <br />
       <br />
+      <br />
+      <h1>Children Props Example</h1>
+      <ExampleChildrenProps />
+      <br />
+      <br />
+      <h1>Prop Types Example</h1>
+      <ExamplePropTypes />
+      <br />
+      <br />
+      <h1>Checkbox Controlled Component Example</h1>
+      <ExampleControlledComponentCheckbox />
+      <br />
+      <br />
+      <h1>React Antipatterns Example</h1>
+      <ExampleReactAntipatterns />
+      <br />
+      <br />
+      <h1>Array of Objects Example</h1>
+      <ExampleArrayOfObjectsInReact />
+      <br />
+      <br />
+      <h1>UseEffect Example</h1>
+      <ExampleUseEffect />
+      <br />
+      <br />
+
       <br />
       <br />
       <br />
