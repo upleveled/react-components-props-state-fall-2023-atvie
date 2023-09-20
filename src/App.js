@@ -5,21 +5,28 @@ import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
 import ExampleControlledComponentCheckbox from './ExampleControlledComponentCheckbox';
 import ExampleDataFetching from './ExampleDataFetching';
+import ExampleDataModeling from './ExampleDataModeling';
+import ExampleDerivingState from './ExampleDerivingState';
 import ExampleDisplayValues from './ExampleDisplayValues';
 import ExampleFormsWithControlledComponents from './ExampleFormsWithControlledComponents';
 import ExampleFormsWithDraftState from './ExampleFormsWithDraftState';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExamplePropDestructuring from './ExamplePropDestructuring';
+import ExamplePropDrilling from './ExamplePropDrilling';
 import ExampleProps from './ExampleProps';
 import ExamplePropTypes from './ExamplePropTypes';
 import ExampleReactAntipatterns from './ExampleReactAntipatterns';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
+import {
+  StateManagementUseReducer,
+  StateManagementUseState,
+  StateManagementUseXState,
+} from './ExampleStateSolutions';
 import ExampleStylingOptions from './ExampleStylingOptions';
 import ExampleUseEffect from './ExampleUseEffect';
-import ExampleUserEffect from './ExampleUseEffect';
 
 export default function App() {
   return (
@@ -129,7 +136,55 @@ export default function App() {
       <ExampleUseEffect />
       <br />
       <br />
-
+      <h1>Data Modeling Example</h1>
+      <ExampleDataModeling />
+      <br />
+      <br />
+      <h1>Deriving State Example vs Extra Variables</h1>
+      <ExampleDerivingState />
+      <br />
+      <br />
+      <ExamplePropDrilling />
+      <br />
+      <br />
+      <StateManagementUseState />
+      <StateManagementUseReducer />
+      <StateManagementUseXState />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
